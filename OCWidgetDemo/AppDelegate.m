@@ -48,4 +48,19 @@
 }
 
 
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+
+    //iOS 9 之前
+    NSLog(@"%@",url);
+    return  YES;
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
+    //iOS 9 之后
+     NSLog(@"%@",url);
+    return YES;
+}
+
 @end

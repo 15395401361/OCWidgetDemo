@@ -15,6 +15,20 @@
 		092F06141EADDCD400E5C1C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092F06121EADDCD400E5C1C1 /* LaunchScreen.storyboard */; };
 		092F061F1EADDCD400E5C1C1 /* OCWidgetDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F061E1EADDCD400E5C1C1 /* OCWidgetDemoTests.m */; };
 		092F062A1EADDCD500E5C1C1 /* OCWidgetDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F06291EADDCD500E5C1C1 /* OCWidgetDemoUITests.m */; };
+		092F063E1EADDCFD00E5C1C1 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092F063D1EADDCFD00E5C1C1 /* NotificationCenter.framework */; };
+		092F06421EADDCFD00E5C1C1 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F06411EADDCFD00E5C1C1 /* TodayViewController.m */; };
+		092F06451EADDCFD00E5C1C1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092F06431EADDCFD00E5C1C1 /* MainInterface.storyboard */; };
+		092F06491EADDCFD00E5C1C1 /* Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 092F063B1EADDCFD00E5C1C1 /* Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		092F06501EADDDF100E5C1C1 /* LFWidgetHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F064F1EADDDF100E5C1C1 /* LFWidgetHead.m */; };
+		092F06551EADE61700E5C1C1 /* LFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F06541EADE61700E5C1C1 /* LFButton.m */; };
+		09674ECA1EAEFAAB001A2ED2 /* myMedicineShop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09674EC21EAEFAAB001A2ED2 /* myMedicineShop@3x.png */; };
+		09674ECB1EAEFAAB001A2ED2 /* myMedicineShop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09674EC31EAEFAAB001A2ED2 /* myMedicineShop@2x.png */; };
+		09674ECC1EAEFAAB001A2ED2 /* invitePatients@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09674EC41EAEFAAB001A2ED2 /* invitePatients@3x.png */; };
+		09674ECD1EAEFAAB001A2ED2 /* invitePatients@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09674EC51EAEFAAB001A2ED2 /* invitePatients@2x.png */; };
+		09674ECE1EAEFAAB001A2ED2 /* missionVC@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09674EC61EAEFAAB001A2ED2 /* missionVC@3x.png */; };
+		09674ECF1EAEFAAB001A2ED2 /* missionVC@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09674EC71EAEFAAB001A2ED2 /* missionVC@2x.png */; };
+		09674ED01EAEFAAB001A2ED2 /* groupCC@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09674EC81EAEFAAB001A2ED2 /* groupCC@3x.png */; };
+		09674ED11EAEFAAB001A2ED2 /* groupCC@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09674EC91EAEFAAB001A2ED2 /* groupCC@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +46,28 @@
 			remoteGlobalIDString = 092F06001EADDCD400E5C1C1;
 			remoteInfo = OCWidgetDemo;
 		};
+		092F06471EADDCFD00E5C1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 092F05F91EADDCD400E5C1C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 092F063A1EADDCFD00E5C1C1;
+			remoteInfo = Widget;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		092F064D1EADDCFD00E5C1C1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				092F06491EADDCFD00E5C1C1 /* Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		092F06011EADDCD400E5C1C1 /* OCWidgetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCWidgetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +86,25 @@
 		092F06251EADDCD500E5C1C1 /* OCWidgetDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCWidgetDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		092F06291EADDCD500E5C1C1 /* OCWidgetDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCWidgetDemoUITests.m; sourceTree = "<group>"; };
 		092F062B1EADDCD500E5C1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		092F063B1EADDCFD00E5C1C1 /* Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Widget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		092F063D1EADDCFD00E5C1C1 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		092F06401EADDCFD00E5C1C1 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		092F06411EADDCFD00E5C1C1 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		092F06441EADDCFD00E5C1C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		092F06461EADDCFD00E5C1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		092F064E1EADDDF100E5C1C1 /* LFWidgetHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFWidgetHead.h; sourceTree = "<group>"; };
+		092F064F1EADDDF100E5C1C1 /* LFWidgetHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFWidgetHead.m; sourceTree = "<group>"; };
+		092F06531EADE61700E5C1C1 /* LFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFButton.h; sourceTree = "<group>"; };
+		092F06541EADE61700E5C1C1 /* LFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFButton.m; sourceTree = "<group>"; };
+		09674EC21EAEFAAB001A2ED2 /* myMedicineShop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myMedicineShop@3x.png"; sourceTree = "<group>"; };
+		09674EC31EAEFAAB001A2ED2 /* myMedicineShop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myMedicineShop@2x.png"; sourceTree = "<group>"; };
+		09674EC41EAEFAAB001A2ED2 /* invitePatients@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invitePatients@3x.png"; sourceTree = "<group>"; };
+		09674EC51EAEFAAB001A2ED2 /* invitePatients@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invitePatients@2x.png"; sourceTree = "<group>"; };
+		09674EC61EAEFAAB001A2ED2 /* missionVC@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "missionVC@3x.png"; sourceTree = "<group>"; };
+		09674EC71EAEFAAB001A2ED2 /* missionVC@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "missionVC@2x.png"; sourceTree = "<group>"; };
+		09674EC81EAEFAAB001A2ED2 /* groupCC@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "groupCC@3x.png"; sourceTree = "<group>"; };
+		09674EC91EAEFAAB001A2ED2 /* groupCC@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "groupCC@2x.png"; sourceTree = "<group>"; };
+		09674ED21EAF33D7001A2ED2 /* OCWidgetDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OCWidgetDemo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +129,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		092F06381EADDCFD00E5C1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092F063E1EADDCFD00E5C1C1 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +146,8 @@
 				092F06031EADDCD400E5C1C1 /* OCWidgetDemo */,
 				092F061D1EADDCD400E5C1C1 /* OCWidgetDemoTests */,
 				092F06281EADDCD500E5C1C1 /* OCWidgetDemoUITests */,
+				092F063F1EADDCFD00E5C1C1 /* Widget */,
+				092F063C1EADDCFD00E5C1C1 /* Frameworks */,
 				092F06021EADDCD400E5C1C1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +158,7 @@
 				092F06011EADDCD400E5C1C1 /* OCWidgetDemo.app */,
 				092F061A1EADDCD400E5C1C1 /* OCWidgetDemoTests.xctest */,
 				092F06251EADDCD500E5C1C1 /* OCWidgetDemoUITests.xctest */,
+				092F063B1EADDCFD00E5C1C1 /* Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +166,7 @@
 		092F06031EADDCD400E5C1C1 /* OCWidgetDemo */ = {
 			isa = PBXGroup;
 			children = (
+				09674ED21EAF33D7001A2ED2 /* OCWidgetDemo.entitlements */,
 				092F06071EADDCD400E5C1C1 /* AppDelegate.h */,
 				092F06081EADDCD400E5C1C1 /* AppDelegate.m */,
 				092F060A1EADDCD400E5C1C1 /* ViewController.h */,
@@ -140,6 +206,45 @@
 			path = OCWidgetDemoUITests;
 			sourceTree = "<group>";
 		};
+		092F063C1EADDCFD00E5C1C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				092F063D1EADDCFD00E5C1C1 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		092F063F1EADDCFD00E5C1C1 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				092F06401EADDCFD00E5C1C1 /* TodayViewController.h */,
+				092F06411EADDCFD00E5C1C1 /* TodayViewController.m */,
+				092F064E1EADDDF100E5C1C1 /* LFWidgetHead.h */,
+				092F064F1EADDDF100E5C1C1 /* LFWidgetHead.m */,
+				092F06531EADE61700E5C1C1 /* LFButton.h */,
+				092F06541EADE61700E5C1C1 /* LFButton.m */,
+				092F06561EADE83B00E5C1C1 /* widgetImage */,
+				092F06431EADDCFD00E5C1C1 /* MainInterface.storyboard */,
+				092F06461EADDCFD00E5C1C1 /* Info.plist */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		092F06561EADE83B00E5C1C1 /* widgetImage */ = {
+			isa = PBXGroup;
+			children = (
+				09674EC21EAEFAAB001A2ED2 /* myMedicineShop@3x.png */,
+				09674EC31EAEFAAB001A2ED2 /* myMedicineShop@2x.png */,
+				09674EC41EAEFAAB001A2ED2 /* invitePatients@3x.png */,
+				09674EC51EAEFAAB001A2ED2 /* invitePatients@2x.png */,
+				09674EC61EAEFAAB001A2ED2 /* missionVC@3x.png */,
+				09674EC71EAEFAAB001A2ED2 /* missionVC@2x.png */,
+				09674EC81EAEFAAB001A2ED2 /* groupCC@3x.png */,
+				09674EC91EAEFAAB001A2ED2 /* groupCC@2x.png */,
+			);
+			path = widgetImage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,10 +255,12 @@
 				092F05FD1EADDCD400E5C1C1 /* Sources */,
 				092F05FE1EADDCD400E5C1C1 /* Frameworks */,
 				092F05FF1EADDCD400E5C1C1 /* Resources */,
+				092F064D1EADDCFD00E5C1C1 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				092F06481EADDCFD00E5C1C1 /* PBXTargetDependency */,
 			);
 			name = OCWidgetDemo;
 			productName = OCWidgetDemo;
@@ -196,6 +303,23 @@
 			productReference = 092F06251EADDCD500E5C1C1 /* OCWidgetDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		092F063A1EADDCFD00E5C1C1 /* Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092F064A1EADDCFD00E5C1C1 /* Build configuration list for PBXNativeTarget "Widget" */;
+			buildPhases = (
+				092F06371EADDCFD00E5C1C1 /* Sources */,
+				092F06381EADDCFD00E5C1C1 /* Frameworks */,
+				092F06391EADDCFD00E5C1C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Widget;
+			productName = Widget;
+			productReference = 092F063B1EADDCFD00E5C1C1 /* Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,7 +331,13 @@
 				TargetAttributes = {
 					092F06001EADDCD400E5C1C1 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 83L265UTNF;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					092F06191EADDCD400E5C1C1 = {
 						CreatedOnToolsVersion = 8.3;
@@ -218,6 +348,10 @@
 						CreatedOnToolsVersion = 8.3;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 092F06001EADDCD400E5C1C1;
+					};
+					092F063A1EADDCFD00E5C1C1 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -237,6 +371,7 @@
 				092F06001EADDCD400E5C1C1 /* OCWidgetDemo */,
 				092F06191EADDCD400E5C1C1 /* OCWidgetDemoTests */,
 				092F06241EADDCD500E5C1C1 /* OCWidgetDemoUITests */,
+				092F063A1EADDCFD00E5C1C1 /* Widget */,
 			);
 		};
 /* End PBXProject section */
@@ -263,6 +398,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092F06391EADDCFD00E5C1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09674ECF1EAEFAAB001A2ED2 /* missionVC@2x.png in Resources */,
+				09674ECB1EAEFAAB001A2ED2 /* myMedicineShop@2x.png in Resources */,
+				09674ECE1EAEFAAB001A2ED2 /* missionVC@3x.png in Resources */,
+				09674ECD1EAEFAAB001A2ED2 /* invitePatients@2x.png in Resources */,
+				09674ED11EAEFAAB001A2ED2 /* groupCC@2x.png in Resources */,
+				09674ECC1EAEFAAB001A2ED2 /* invitePatients@3x.png in Resources */,
+				092F06451EADDCFD00E5C1C1 /* MainInterface.storyboard in Resources */,
+				09674ECA1EAEFAAB001A2ED2 /* myMedicineShop@3x.png in Resources */,
+				09674ED01EAEFAAB001A2ED2 /* groupCC@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +446,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		092F06371EADDCFD00E5C1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092F06551EADE61700E5C1C1 /* LFButton.m in Sources */,
+				092F06421EADDCFD00E5C1C1 /* TodayViewController.m in Sources */,
+				092F06501EADDDF100E5C1C1 /* LFWidgetHead.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -307,6 +468,11 @@
 			isa = PBXTargetDependency;
 			target = 092F06001EADDCD400E5C1C1 /* OCWidgetDemo */;
 			targetProxy = 092F06261EADDCD500E5C1C1 /* PBXContainerItemProxy */;
+		};
+		092F06481EADDCFD00E5C1C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 092F063A1EADDCFD00E5C1C1 /* Widget */;
+			targetProxy = 092F06471EADDCFD00E5C1C1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -325,6 +491,14 @@
 				092F06131EADDCD400E5C1C1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		092F06431EADDCFD00E5C1C1 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092F06441EADDCFD00E5C1C1 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -426,6 +600,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 83L265UTNF;
 				INFOPLIST_FILE = OCWidgetDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WLF.OCWidgetDemo;
@@ -437,6 +612,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 83L265UTNF;
 				INFOPLIST_FILE = OCWidgetDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WLF.OCWidgetDemo;
@@ -490,6 +666,32 @@
 			};
 			name = Release;
 		};
+		092F064B1EADDCFD00E5C1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WLF.OCWidgetDemo.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		092F064C1EADDCFD00E5C1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WLF.OCWidgetDemo.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -509,6 +711,7 @@
 				092F06301EADDCD500E5C1C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		092F06311EADDCD500E5C1C1 /* Build configuration list for PBXNativeTarget "OCWidgetDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +720,7 @@
 				092F06331EADDCD500E5C1C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		092F06341EADDCD500E5C1C1 /* Build configuration list for PBXNativeTarget "OCWidgetDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +729,16 @@
 				092F06361EADDCD500E5C1C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		092F064A1EADDCFD00E5C1C1 /* Build configuration list for PBXNativeTarget "Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092F064B1EADDCFD00E5C1C1 /* Debug */,
+				092F064C1EADDCFD00E5C1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
